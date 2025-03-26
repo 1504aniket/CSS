@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+div{
+   
+    width: 100% 100%;
+    height: 100vh;
+    background-image: linear-gradient(pink,purple);
+    position: relative;
+
+}
+a{
+    color:blue;
+    
+    position:absolute;
+    top: 45%;
+    left: 45%;
+    
+}
+
+/* now through button we will see diffrent anchor states */
+a:link{
+    /* default state  */
+    color: aqua;
+}
+a:visited{
+    /* changes shown on when user already visited that link  */
+    background-color: red;
+}
+a:hover{
+    /* changes shown on hover on element  */
+    color: purple;
+
+}
+a:active{
+    /* changes show on actvely pressing on link  */
+    background-color:white
+}

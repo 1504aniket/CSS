@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+#div1{
+    position: relative;
+    height: 100vh;
+    width: 100% 100%;
+    background-image:linear-gradient(to right ,pink ,blue);
+    /* filter: grayscale(); */
+    filter:brightness(1.5);
+    filter: saturate(2);
+
+}

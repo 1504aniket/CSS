@@ -1,0 +1,17 @@
+/* tag/element selector */
+h4{
+    color: blue;
+
+}
+/* class slector */
+.header{
+    color: blue;
+}
+/* id selctor */
+#para{
+    color: pink;
+}
+/* psuedo class */
+h4:hover{
+    color:aqua
+}

@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.bod{
+    height: 100vh;
+    width: 100% 100%;
+    /* background-image: radial-gradient(purple,pink); NORMAL WAY */
+    /* background-image:radial-gradient(circle,pink,blue); */
+    /* we can also define shape */
+
+
+    /* we can add area of diffrent  colours  */
+    background-image: radial-gradient(circle,pink 20%,blue 40%,pink 40%);
+    position: relative;
+
+
+}
+p{
+    position: absolute;
+    font-size: 100px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+
+}

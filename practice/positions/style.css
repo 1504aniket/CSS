@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#parent{
+    width: 100% 100%;
+    height: auto;
+    background-image: linear-gradient(pink,purple);
+    /* position: relative;    */
+     /* now parent div will be relative to other divs */
+}
+#child{
+    /* position:absolute; */
+    /* position: sticky; */
+    position: sticky
+    /* position: static; */
+    width: 150px;
+    height: 150px;
+    background-color:brown;
+    right: 0px;
+    left:20px;
+    top: 50%;
+}

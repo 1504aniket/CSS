@@ -1,0 +1,20 @@
+/* RGB color scheme */
+h1{
+    color: rgb(0, 255,0);
+}
+/* Heaxdecimal color shceme */
+h4{
+    color: #00ff00;
+}
+/* RGBA color scheme */
+p{
+    color: rgba(0, 50, 255, 0.0001);
+}
+
+.hero{
+    color: red;
+
+}
+#one{
+    color: currentColor;
+}
